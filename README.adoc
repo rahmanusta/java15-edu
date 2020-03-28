@@ -1,0 +1,18 @@
+== Java 14 Features
+
+Java 14 features which are presented in Istanbul JUG online webinar. https://istanbul-jug.org/2020/03/online-java-14-webineri/
+
+== Notes
+
+* Be sure `--enable-preview` option is enabled to run preview features
+* Be sure `-XX:+ShowCodeDetailsInExceptionMessages` option is enabled to see helpful NLP output
+
+== How to run
+
+Download JDK 14 https://jdk.java.net/14/ and use your favorite IDE which supports Java 14.
+
+or you can try features on https://tryjshell.org/
+
+== Author
+
+Rahman Usta
