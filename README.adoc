@@ -7,6 +7,10 @@ Java 14 features which are presented in Istanbul JUG online webinar. https://ist
 * Be sure `--enable-preview` option is enabled to run preview features
 * Be sure `-XX:+ShowCodeDetailsInExceptionMessages` option is enabled to see helpful NLP output
 
+== Slides
+
+You can find slides here link:Java_14_Features.pdf[]
+
 == How to run
 
 Download JDK 14 https://jdk.java.net/14/ and use your favorite IDE which supports Java 14.
