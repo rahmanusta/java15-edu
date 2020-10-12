@@ -18,8 +18,6 @@ public class ClassicSwitchApp {
             case TRUCK:
                 speedLimit = 80;
                 break;
-            default:
-                throw new IllegalStateException("No case found for: " + vehicleType);
         }
 
         System.out.println("Speed limit: " + speedLimit);
