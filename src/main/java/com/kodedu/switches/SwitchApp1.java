@@ -1,20 +1,16 @@
 package com.kodedu.switches;
 
-import java.util.concurrent.ThreadLocalRandom;
-
-public class App3 {
+public class SwitchApp1 {
 
     public static void main(String[] args) {
 
-        VehicleType vehicleType = VehicleType.TRUCK;
+        VehicleType vehicleType = VehicleType.AUTOMOBILE;
 
         int speedLimit = switch (vehicleType) {
             case BIKE, SCOOTER -> 40;
             case MOTORBIKE, AUTOMOBILE -> 140;
-            case TRUCK -> {
-                int randomSpeed = ThreadLocalRandom.current().nextInt(70, 80);
-                yield randomSpeed;
-            }
+            case TRUCK -> 80;
+//            default -> throw new IllegalStateException("No case found for: " + vehicleType);
         };
 
         System.out.println("Speed limit: " + speedLimit);

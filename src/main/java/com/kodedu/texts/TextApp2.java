@@ -1,6 +1,6 @@
 package com.kodedu.texts;
 
-public class App2 {
+public class TextApp2 {
 
     public static void main(String[] args) {
 

@@ -1,11 +1,11 @@
-== Java 14 Features
+== Java 15 Features
 
-Java 14 features which are presented in Istanbul JUG online webinar. https://istanbul-jug.org/2020/03/online-java-14-webineri/
+This repository includes some selected Java 15 features which have presented in conference and meetups.
 
 == Notes
 
 * Be sure `--enable-preview` option is enabled to run preview features
-* Be sure `-XX:+ShowCodeDetailsInExceptionMessages` option is enabled to see helpful NLP output
+//* Be sure `-XX:+ShowCodeDetailsInExceptionMessages` option is enabled to see helpful NLP output
 
 == Slides
 
@@ -13,7 +13,7 @@ You can find slides here link:Java_14_Features.pdf[]
 
 == How to run
 
-Download JDK 14 https://jdk.java.net/14/ and use your favorite IDE which supports Java 14.
+Download JDK 15 https://jdk.java.net/15/ and use your favorite IDE which supports Java 14.
 
 or you can try features on https://tryjshell.org/
 

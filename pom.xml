@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kodedu</groupId>
-    <artifactId>java14-edu</artifactId>
+    <artifactId>java15-edu</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <build>
@@ -18,6 +18,8 @@
                     <compilerArgs>
                         <arg>--enable-preview</arg>
                     </compilerArgs>
+                    <source>15</source>
+                    <target>15</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -25,9 +27,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
     </properties>
 
 

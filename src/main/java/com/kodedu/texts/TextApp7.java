@@ -2,7 +2,7 @@ package com.kodedu.texts;
 
 import static com.kodedu.texts.TextUtil.printText;
 
-public class App7 {
+public class TextApp7 {
 
     public static void main(String[] args) {
         String html = """
@@ -12,7 +12,7 @@ public class App7 {
                          </body>              
                       </html>                 
                       """;
-        html = html.formatted("Merhaba", "Dünya");
+        html = html.formatted("Hello", "world!");
 
         printText(html);
     }

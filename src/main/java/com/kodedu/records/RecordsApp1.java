@@ -1,6 +1,6 @@
 package com.kodedu.records;
 
-public class App1 {
+public class RecordsApp1 {
 
     public static void main(String[] args) {
 

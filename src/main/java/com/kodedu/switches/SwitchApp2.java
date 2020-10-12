@@ -1,6 +1,6 @@
 package com.kodedu.switches;
 
-public class App2 {
+public class SwitchApp2 {
 
     public static void main(String[] args) {
 

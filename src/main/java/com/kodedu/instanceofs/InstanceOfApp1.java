@@ -1,10 +1,10 @@
 package com.kodedu.instanceofs;
 
-public class App1 {
+public class InstanceOfApp1 {
 
     public static void main(String[] args) {
 
-        Object obj = "Merhaba Dünya";
+        Object obj = "Hello world!";
 
         // before
         if (obj instanceof String) {

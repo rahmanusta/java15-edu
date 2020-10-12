@@ -1,10 +1,10 @@
 package com.kodedu.instanceofs;
 
-public class App2 {
+public class InstanceOfApp2 {
 
     public static void main(String[] args) {
 
-        Object obj = "Merhaba Dünya";
+        Object obj = "Hello world!";
 
         // legal usage
         if (obj instanceof String s && !s.isBlank()) {

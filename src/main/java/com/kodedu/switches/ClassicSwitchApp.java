@@ -1,11 +1,11 @@
 package com.kodedu.switches;
 
-public class Classico {
+public class ClassicSwitchApp {
 
     public static void main(String[] args) {
         VehicleType vehicleType = VehicleType.AUTOMOBILE;
 
-        int speedLimit;
+        int speedLimit = -1;
         switch (vehicleType) {
             case BIKE:
             case SCOOTER:

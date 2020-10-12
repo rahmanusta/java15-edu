@@ -2,7 +2,7 @@ package com.kodedu.texts;
 
 import static com.kodedu.texts.TextUtil.printText;
 
-public class App6 {
+public class TextApp6 {
 
     public static void main(String[] args) {
         String html = """

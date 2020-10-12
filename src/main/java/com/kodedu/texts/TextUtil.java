@@ -5,8 +5,6 @@ import java.util.function.Supplier;
 
 public class TextUtil {
 
-    private static AtomicInteger counter = new AtomicInteger(0);
-
     public static void printText(String string) {
         string = string.replaceAll(" ", "•");
         string = string.replaceAll("\n", "⏎\n");
