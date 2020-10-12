@@ -9,7 +9,7 @@ This repository includes some selected Java 15 features which have presented in 
 
 == Slides
 
-You can find slides here link:Java_14_Features.pdf[]
+You can find slides here link:Java_15_Features.pdf[]
 
 == How to run
 
